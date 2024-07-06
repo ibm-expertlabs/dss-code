@@ -6,16 +6,16 @@ spec:
   params:
     - name: is-config-repo-url
       type: string
-      description: "SSH url of Configuration repository, ex: git@github.com:ace-prod-ref/ace-config.git"
-      default: "git@github.com:DSS-NYC-APIC/dss-accenture.git"
+      description: "SSH url of Configuration repository"
+      default: "git@github.com:ibm-expertlabs/dss-accenture.git"
     - name: is-infra-repo-url
       type: string
-      description: "SSH url of Infrastructure repository, ex: git@github.com:ace-prod-ref/ace-infra.git"
-      default: "git@github.com:ace-prod-ref/ace-infra.git"
+      description: "SSH url of Infrastructure repository"
+      default: "git@github.com:ibm-expertlabs/ace-infra.git"
     - name: git-ops-repo-url
       type: string
-      description: "SSH url of GitOps repository, ex: git@github.com:ace-prod-ref/multi-tenancy-gitops-apps.git"
-      default: "git@github.com:ace-prod-ref/multi-tenancy-gitops-apps.git"
+      description: "SSH url of GitOps repository"
+      default: "git@github.com:ibm-expertlabs/multi-tenancy-gitops-apps.git"
     - name: gitops-apps-repo-full-name
       type: string
       description: "Repo name of GitOps repository, in github.com, ex: ace-prod-ref/multi-tenancy-gitops-apps"
